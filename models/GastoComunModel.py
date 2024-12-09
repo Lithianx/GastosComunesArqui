@@ -12,7 +12,7 @@ class GastoComun(db.Model):
 
 
     def serialize(self):
-        """Convierte la instancia en un diccionario para facilitar la conversión a JSON."""
+        
         return {
             "id": self.id,
             "num_depto": self.num_depto,
